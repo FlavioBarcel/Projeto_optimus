@@ -1,0 +1,113 @@
+.rodape{
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    background-color: #F9FAFB;
+    text-align: center;
+}
+
+.rodape__h1{
+    font-size:1.45rem ;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.rodape__h3{
+    font-size:1.25rem ;
+    font-weight:400 ;
+    padding-bottom: 2rem;
+    color: #667085;
+}
+
+.rodape__container{
+  
+    
+}
+
+.rodape__imput{
+    font-weight:400 ;
+    width: 360px;
+    margin-right: 1rem;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+    margin-bottom: 1.6rem;
+
+}
+
+.rodape__botao{
+    font-weight:400 ;
+    background-color: #8E2424;
+    padding: 0.8rem 2.5rem;
+    color: white;
+    border-radius: 8px;
+   
+}
+
+.rodape__h4{
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight:400 ;
+    color: #667085;
+}
+
+::placeholder{
+    padding-left: 1rem;
+}
+
+
+@media screen and (min-width:768px) {
+    .rodape{
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        background-color: #F9FAFB;
+        text-align: center;
+    }
+    
+    .rodape__h1{
+        font-size:2.25rem ;
+        font-weight: 600;
+        padding-bottom: 1rem;
+    }
+    
+    .rodape__h3{
+        font-size:1.25rem ;
+        font-weight:400 ;
+        padding-bottom: 2rem;
+        color: #667085;
+    }
+    
+    .rodape__container{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .rodape__imput{
+        font-weight:400 ;
+        width: 360px;
+        margin-right: 1rem;
+    }
+    
+    .rodape__botao{
+        font-weight:400 ;
+        background-color: #8E2424;
+        padding: 0.8rem 1rem;
+        color: white;
+        border-radius: 8px;
+    }
+    
+    .rodape__h4{
+        padding-top: 2rem;
+        font-size: 1rem;
+        font-weight:400 ;
+        color: #667085;
+    }
+    
+    ::placeholder{
+        padding-left: 1rem;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    
+}
