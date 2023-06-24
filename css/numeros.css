@@ -5,8 +5,12 @@
    padding-bottom: 4rem;
    flex-wrap: wrap;
    row-gap: 3rem;  
+   
 }
 
+.numeros__lista{
+    text-align: center;
+}
 
 .numeros__numero{
     font-size: 3.75rem;

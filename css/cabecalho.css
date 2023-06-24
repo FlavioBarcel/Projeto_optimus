@@ -1,7 +1,12 @@
 .cabecalho{
     width: 100%;
     padding: 0 2rem;
-      
+    
+    padding-bottom: 1rem;
+}
+
+.cabecalho__borda{
+    border-bottom: 1px solid #8E2424;
 }
 
 .cabecalho__navegacao{
