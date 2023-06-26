@@ -79,12 +79,13 @@
 
 
 @media screen and (min-width:768px) {
-
-
-
     .cabecalho__nav{
     padding-right: 1rem;
     color: var(--cor-fonte-principal);
+    }
+
+    .cabecalho__botaoh:checked~.cabecalho__lista{
+        display: none;
     }
 
     .cabecalho__menu__img{
@@ -98,6 +99,11 @@
     .cabecalho__conteudo{
         display: block;
     }
+
+    .cabecalho__lista{
+        display: none;
+    }
+
 }
 
 
