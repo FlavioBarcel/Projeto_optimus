@@ -53,7 +53,8 @@
     background-color: #8E2424;
     width: 110px;
     position: absolute;
-    left: 215px;
+    right: auto;
+    right: 2px;
     top: 50px;
     padding: 1rem;
     line-height: 2rem;
@@ -79,7 +80,7 @@
 
 @media screen and (min-width:768px) {
 
-    
+
 
     .cabecalho__nav{
     padding-right: 1rem;
