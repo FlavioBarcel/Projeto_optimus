@@ -14,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1.3rem;
+    position: relative;
 }
 
 .cabecalho__nav{
@@ -47,7 +48,38 @@
 }
 
 
+.cabecalho__lista{
+    display: none;
+    background-color: #8E2424;
+    width: 110px;
+    position: absolute;
+    left: 215px;
+    top: 50px;
+    padding: 1rem;
+    line-height: 2rem;
+    
+}
+
+.cabecalho__botaoh:checked~.cabecalho__lista{
+    display: block;
+}
+
+.cabecalho__botaoh{
+    display: none;
+}
+
+.cabecalho__link{
+    color: white;
+}
+
+.cab_itens_borda{
+    border-bottom: 1px solid white;
+}
+
+
 @media screen and (min-width:768px) {
+
+    
 
     .cabecalho__nav{
     padding-right: 1rem;
